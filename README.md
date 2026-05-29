@@ -6,5 +6,7 @@ Homebrew tap for [Root](https://github.com/sgr0691/Root) — the package manager
 
 ```bash
 brew tap sgr0691/root
-brew install root
+brew install root-cli
 ```
+
+The binary is installed as `root`.

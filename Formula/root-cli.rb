@@ -1,5 +1,5 @@
-class Root < Formula
-  desc "Deterministic package manager powered by Nix"
+class RootCli < Formula
+  desc "Deterministic machine environment manager powered by Nix"
   homepage "https://github.com/sgr0691/Root"
   version "0.1.0"
   license "Apache-2.0"
