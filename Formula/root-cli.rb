@@ -7,7 +7,7 @@ class RootCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/sgr0691/Root/releases/download/v#{version}/root-aarch64-apple-darwin.tar.gz"
-      sha256 "ff33bb7a3300c4bb4e72ddd21adbb4039ba15dbb5e8c7e828e719d747ec4395b"
+      sha256 "5922ea7f1bce1d60dba190fd23ddf0453d30b5d345bc43a9e4f0f78518a721b1"
 
       def install
         bin.install "root"
